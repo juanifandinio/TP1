@@ -8,13 +8,14 @@
     <body>
         <header class="header">
             <div class="navegadorylogo">
+                <!--Tanto en el header como en el footer se usan solo divs-->
                 <article class="logo">
-                    <img src="Img/logo.svg" alt="logo">
+                    <img src="Img/logo.svg" alt="logo"> <!--Te falta ponerle medida a la imagen, y fijate que no cerras la etiqueta. Las etiquetas img siempre se escriben como <img -datos- /> -->
                 </article>
                 <article class="botonera">
                     <nav>
                         <ul>
-                            <link><a href="#Acerca de mi"> sobre mi</a></link>
+                            <link><a href="#Acerca de mi"> sobre mi</a></link> <!-- Acá esta mal usada la etiqueta link, para lo que estás haciendo se usa sólo la <a>. <link> se usa más para vincular hojas de estilo, fuentes, cosas de ese estilo al html. -->
                             <link><a href="#Contacto"> contacto</a></link>
                             <link><a href="#Skils"> skils</a></link>
                             <link><a href="#Experiencia">experiencia</a></link>
@@ -30,6 +31,7 @@
             
             <article class="behance">
                 <li><img src="Img/behance negro.svg" width="30px" height="30px" alt="Logo de Behance"></li>
+                <!-- Los <li> tienen que ir dentro de una ul u ol. Acá puede que no sea necesario poner una lista como tenes un solo elemento-->
                 <a href="https://www.behance.net/juanigfandio">Conoce mis trabajos</a>
             </article>
 
@@ -61,6 +63,7 @@
                             Desde la creación de logotipos hasta el diseño de material publicitario, estoy aquí para ayudarte a dar vida a tus ideas. No importa cuán grande o pequeño sea tu proyecto, estoy comprometido a ofrecerte soluciones creativas y profesionales que superen tus expectativas.
                                 
                             Si tienes alguna pregunta, idea o proyecto en mente, no dudes en contactarme. Estoy aquí para colaborar contigo y hacer que tus visiones cobren vida a través del diseño gráfico. ¡Espero realmente con mucho entuciasmo el poder trabajar juntos!</p>
+                            <!-- Si la intención es que estos sean distintos parrafos, podes separarlos en distintas <p> -->
                         </article>    
                             
                         <img class="imagentelefono" src="Img/telefono.svg" alt="">
@@ -74,6 +77,12 @@
                             <li><img src="Img/whatssapp.svg" width="20px" height="20px" alt="logo de whatsapp" ></li>
                             <a href="https://wa.link/oluf3k">Whatsapp</a>
                         </article>
+                        <!-- En lugar de usar un article, acá podés organizarlo de la siguiente forma:
+                        <li>
+                        <img/>
+                        <a></a>
+                        </li>
+                        pero identandolo bien -->
 
                         <article class="mail">
                             <li><img src="Img/email.svg" width="20px" height="20px" alt="Logo de Gmail" ></li>
@@ -175,13 +184,14 @@
             <section id="Estudios" class="seccion5">
                 
                <div class="bajada5"> 
-                    <H2> - Educación</H2>
+                    <H2> - Educación</H2> <!-- Se te pifio una mayuscula aca, fijate de siempre ponerlo con minuscula -->
                         
                     <ul>
                         <div class="secundaria">
                             <li><h3>Bachiller en Ciencias Sociales</h3></li>
                             <p>Southland School (2010-2015)</p>
                         </div>
+											<!-- Acá podes organizarlo como te dije más arriba tambien! -->
                         
                         <div class="unlz">    
                             <li><h3>Licenciatura en Contabilidad</h3></li>

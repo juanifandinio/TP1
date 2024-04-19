@@ -9,7 +9,7 @@ padding: 0px;
 
     background-image: url(Img/backgroundimg.jpg);
     background-size: cover;
-    height: 1300px;
+    height: 1300px; /* Como tenés dos heights, el código sólo te toma el de 604px. Uno de estos está demás. Fijate igualmente si esto no puede acomodarse sin usar medidas fijas, y usando padding */
     height: 604px;
     padding-left: 10%;
     padding-right: 5%;
@@ -83,7 +83,7 @@ padding: 0px;
 }
 
 .seccion1 {
-    width: 1078px;
+    width: 1078px; /* Intentá evitar medidas fijas para secciones, al pasarlo a la resolución de 1920 no se aprecia bien. En vez de esto, podes usar width: 100% (vas a tener que restarle al 100% el porcentaje que uses en padding left y right para que no te genere scroll horizontal, por ejemplo acá sería 80% en vez de 100%) o directamente sacar la propiedad width. Si lo que querés conseguir es cambiar el tamaño de la caja de texto, tenés que darle a esa <p> la propiedad de max-width. */
     background-color: rgb(245, 245, 220);
     padding-left: 10%;
     padding-right: 10%;
@@ -127,7 +127,7 @@ padding: 0px;
 }
 
 .seccion2 {
-    width: 1078px;
+    width: 1078px; /*Acá pasa lo mismo que te digo más arriba, intentá usar en todos estos width 100% o sacar esta propiedad*/
     background-color: rgb(245, 245, 220);
     padding-left: 10%;
     padding-right: 10%;

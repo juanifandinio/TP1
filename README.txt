@@ -27,6 +27,7 @@ distintos, rgb(245, 245, 220); y rgb(26, 26, 26);. trabajando con texto e ilustr
 sencillas en formato SVG, la eleccion tipográfica para este trabajo fueron. 
 font-family: "Roboto Mono", monospace; descargada de Google fonts con @import url 
 y font-family: sans-serif; que ya venia en el CSS.
+El tamaño de la pantalla en el cual fue realizado el trabajo es de 1366x768
 El trabajo fue muy interesante, nunca antes habia hecho un diseño web, ya habia tenido 
 un pequeño acercamiento en la secundaria al html aunque muy poco, pero CSS nunca lo habia
 utilizado, me parecio muy interesante y una muy buena manera de acercar a los estudiantes
